@@ -1,0 +1,260 @@
+﻿
+.budget__headlines_div {
+    display: flex;
+    flex-direction: row;
+    column-gap: 70px;
+    color: gray;
+}
+
+.budget__centercontent {
+    display: block;
+    text-align: center;
+    line-height: 150%;
+    font-size: 1.5em;
+    color: aquamarine;
+}
+
+.budget__dates {
+    display: block;
+    text-align: center;
+    line-height: 150%;
+    font-size: 1.2em;
+    color: gray;
+    word-spacing: 40px;
+    padding-bottom: 10px;
+}
+
+.unbudgeted__headlines_label {
+    display: flex;
+    flex-direction: column;
+    column-gap: 70px;
+    color: gray;
+    margin-bottom: 15px;
+}
+
+.income__headerdiv {
+    display: flex;
+    flex-direction: column;
+    column-gap: 70px;
+    color: gray;
+    margin-bottom: 15px;
+}
+
+.income__contentdiv {
+}
+
+
+
+.homepage__topPart_div {
+    padding: 20px;
+}
+
+
+
+.homepage__LowerPart_div {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.homepage__LeftLowerPart_div {
+    border-right: 2px solid white;
+    width: 30%;
+    padding: 10px;
+}
+
+.homepage__RightLowerPart_div {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    text-align: center;
+    padding: 10px;
+    align-items: center;
+}
+
+.savinggoal__headerdiv {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.savinggoal__contentdiv {
+}
+
+.savinggoal__divformap {
+    border: 1px solid lightgray;
+    padding: 8px;
+}
+
+.savinggoal__content_label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.savinggoal__content_label2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.savinggoal__content_label3 {
+}
+
+.bigsavinggoal__headerdiv {
+    text-align: center;
+}
+
+.bigsavinggoal__title_label {
+    color: aquamarine;
+}
+
+.bigsavinggoal__progressbar {
+    display: flex;
+    flex-direction: column;
+}
+
+.bigsavinggoal__contentdiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.bigsavinggoal__contentdiv2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.bigsavinggoal__LabelSaving1 {
+    margin-bottom: 10px;
+    ;
+    color: gray;
+}
+
+.bigsavinggoal__LabelSaving2 {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.bigsavinggoal__LabelSaving3 {
+    margin-top: 15px;
+    color: gray;
+}
+
+
+.variablecosts__name_label {
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 10px;
+    padding-top: 10px;
+    color: gray;
+}
+
+.variablecosts__progressbar_div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.lasttransactionandsavings {
+    display: flex;
+    flex-direction: row;
+    column-gap: 500px;
+}
+
+.lasttransaction__ButtonDiv {
+    text-align: center;
+}
+
+
+.lasttransaction__purchaseName_label {
+    color: gray;
+}
+
+.lasttransaction__priceforpurchase_label {
+    color: gray;
+    display: flex;
+    align-items: flex-end;
+}
+
+.lasttransaction__dateforpurchase_label {
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-bottom: 15px;
+}
+
+.lasttransaction__contentdiv:hover {
+    border: 1px solid lightgray;
+}
+
+
+
+.lasttransaction__BuyLabel_label {
+    color: aquamarine;
+}
+
+
+
+.lasttransaction__HeaderLabel_div {
+    text-align: center;
+}
+
+.fixedcosts__labels {
+    border: 1px solid lightgray;
+    padding: 8px;
+}
+
+.fixedcosts__headline_div {
+    margin-bottom: 15px;
+}
+
+.fixedcosts__fullpage {
+    display: flex;
+    flex-direction: column;
+}
+
+.fixedcosts__content {
+    display: flex;
+    flex-direction: column;
+    column-gap: 70px;
+    color: gray;
+    padding-top: 5px;
+}
+
+
+.btn {
+    width: 150px;
+    height: 30px;
+    border-radius: 25px;
+    background: linear-gradient(#fff, #2a9d8f);
+    font-size: 20px;
+    color: black;
+}
+
+
+/* Modal */
+
+.rpm__registerpurchase {
+    display: flex;
+    flex-direction: column;
+}
+
+.rpm__submitpurchase {
+    margin-top: 20px;
+}
+
+.rpm__purchasetext {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 48px;
+}
+
+.modalinputs {
+    background-color: #abb2bf80;
+    color: white;
+}
+
+.modalinputssubmit {
+    background-color: #264653;
+    color: white;
+}

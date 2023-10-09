@@ -1,0 +1,205 @@
+﻿body {
+    background-color: #282c34;
+}
+
+table {
+    /* border: 1px solid white; */
+    padding: 10px;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    font-size: 18px;
+}
+
+li {
+    text-decoration: none;
+}
+
+th {
+    text-align: left;
+    padding: 10px;
+    /* border: 1px solid white; */
+}
+
+td {
+    text-align: left;
+    /* border: 1px solid white; */
+    padding: 10px;
+}
+
+form {
+    display: inline-block;
+}
+/*----------------Navbar----------------*/
+.__container {
+    color: #ABB2BF;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+}
+
+.__history-nav {
+    grid-row: 1 / 1;
+    grid-column: 1 / 8;
+}
+
+.__history-nav li {
+    display: inline;
+    padding: 20px;
+}
+
+.__history-nav ul {
+    font-size: 32px;
+}
+
+.__line1 {
+    border-left: 2px solid #ABB2BF;
+    display: inline;
+}
+
+/*---------------Budgets------------------- */
+.__line2 {
+    border-left: 2px solid #ABB2BF;
+    grid-row: 2 / 8;
+    grid-column: 2 / 2;
+}
+
+.__history-sidebar {
+    padding: 0px;
+    grid-row: 2 / 8;
+    grid-column: 1 / 1;
+}
+
+.__history-sidebar ul {
+    text-align: left;
+}
+
+.__history-content {
+    grid-row: 2 / 3;
+    grid-column: 4 / 6;
+    margin-left: auto;
+    margin-right: auto;
+    justify-items: center;
+}
+
+.__history-content h2 {
+    color: #2A99EA;
+}
+
+.__from-to-date p {
+    display: inline;
+}
+
+.__history-table {
+    grid-row: 3 / 6;
+    grid-column: 2 / 8;
+    text-decoration: none;
+    /* margin:50px; */
+    padding: 0 60px 0 40px;
+}
+
+.__history-table table {
+    padding: 0;
+    table-layout: fixed;
+}
+
+.__sidebar-container {
+    align-items: center;
+}
+
+.__sidebar-list {
+    font-size: 20px;
+    /* align-items: center; */
+}
+
+.__btn-primary {
+    /* margin-bottom: 15px; */
+    font-size: 25px;
+    cursor: pointer;
+}
+/*---------------Transactions------------------- */
+.__transaction-inputs {
+    grid-row: 2 / 3;
+    grid-column: 1 / 8;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: center;
+    display: inline-block;
+}
+
+.__history-nav-btn {
+    text-decoration: none;
+    color: #ABB2BF;
+    list-style-type: none;
+}
+
+.__history-nav a.active {
+    border-bottom: 2px solid #2a9d8f;
+    padding-bottom: 2px;
+    color: #2a9d8f;
+}
+
+.__history-nav a:hover {
+    color: #2a9d8f;
+    text-decoration: none;
+}
+
+.__filter-input {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #abb2bf4f;
+    color: #ABB2BF;
+}
+
+::placeholder {
+    color: #ABB2BF;
+    font-weight: bold;
+}
+
+.__filter-btn {
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+    background: linear-gradient(#fff, #2a9d8f);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.__budget-btn {
+    border: none;
+    background-color: #282c34;
+    color: #ABB2BF;
+    text-decoration: underline;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.__budget-btn:hover {
+    color: #2a9d8f;
+}
+
+.__search-table {
+    width: inherit;
+    height: 25%;
+    grid-row: 3 / 3;
+    grid-column: 2 / 6;
+    margin-top: 75px;
+    background-color: #abb2bf4f;
+    color: #fff;
+}
+
+.__table-wrapper {
+    grid-row: 4 / 6;
+    grid-column: 2 / 8;
+}
+
+.__transactions-table {
+    text-decoration: none;
+    padding: 0;
+    table-layout: fixed;
+}

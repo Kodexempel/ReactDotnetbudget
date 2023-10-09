@@ -1,0 +1,19 @@
+{
+  "purchase": [
+    {
+      "pris": 500,
+      "köpNamn": "hockeypuck",
+      "datum": "2021-07-14"
+    },
+    {
+      "pris": 271,
+      "köpNamn": "bananer",
+      "datum": "2021-07-11"
+    },
+    {
+      "pris": 100,
+      "köpNamn": "silver",
+      "datum": "2021-07-07"
+    }
+  ]
+}

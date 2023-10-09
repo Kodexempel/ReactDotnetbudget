@@ -1,0 +1,43 @@
+{
+  "namn": "MinBudget",
+  "datumtill": "2021-06-14",
+  "datumfrån": "2021-07-14",
+  "inkomst": 30000,
+  "bostad": 3000,
+  "fordon": 3000,
+  "sparmål": [
+    {
+      "namn": "Resa",
+      "attSpara": 5000,
+      "sparat": 100
+    },
+    {
+      "namn": "Fiskespö",
+      "attSpara": 2000,
+      "sparat": 50
+    }
+  ],
+  "rörliga": [
+    {
+      "namn": "enKategori",
+      "attSpendera": 5000,
+      "spenderat": 2500
+    },
+    {
+      "namn": "enAnnanKategori",
+      "attSpendera": 2000,
+      "spenderat": 200
+    }
+  ],
+  "fasta": [
+    {
+      "namn": "lån",
+      "summa": 1000
+    },
+    {
+      "namn": "lån2",
+      "summa": 1000
+    }
+  ],
+  "obudgeterat": 9200
+}
